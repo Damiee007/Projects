@@ -200,22 +200,30 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid d-flex align-items-center justify-content-between">
             <a class="navbar-brand d-flex align-items-center" href="#">
-                <img src="a.png" alt="Airbnb logo" width="100" height="60" />
+                <img src="a.png" alt="Airbnb logo" width="130" height="80" />
             </a>
 
             <ul class="nav nav-tabs d-none d-lg-flex">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#"><i class="fa-solid fa-house"></i> Homes</a>
+                    <a class="nav-link active d-flex align-items-center gap-2" href="#">
+                        <img src="house.png" alt="Homes" width="50" height="50">
+                        Homes
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-diagram-project"></i> Experiences <span
-                            class="new-badge">NEW</span></a>
+                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                        <img src="balloon.png" alt="Experiences" width="50" height="50">
+                        Experiences <span class="new-badge">NEW</span>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-bell-concierge"></i> Services <span
-                            class="new-badge">NEW</span></a>
+                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                        <img src="cse.png" alt="Services" width="50" height="50">
+                        Services <span class="new-badge">NEW</span>
+                    </a>
                 </li>
             </ul>
+
 
             <div class="right-icons">
                 <i class="fa-solid fa-globe"></i>
@@ -225,6 +233,13 @@
             </div>
         </div>
     </nav>
+
+    <div class="alert alert-warning alert-dismissible fade show text-center mx-4 my-4 rounded-3 shadow-sm" role="alert">
+        <strong>Disclaimer:</strong> This page is a <em>just a demo</em> created for learning purposes only.
+        It is <strong>not affiliated with or intended to clone Airbnb.</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
 
     <div class="d-flex justify-content-center mt-3 mb-4">
         <div class="search-bar">
@@ -270,9 +285,9 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
+        <div class="d-flex overflow-auto gap-4 pb-2">
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="b.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -282,8 +297,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="c.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -293,7 +307,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="d.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -303,7 +317,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="e.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -313,7 +327,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="f.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -323,7 +337,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="g.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -336,9 +350,10 @@
         </div>
     </div>
 
+
     <div class="container-fluid my-5 px-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class=" d-flex align-items-center gap-1">
+            <div class="d-flex align-items-center gap-1">
                 <p class="fw-bold m-0">Available next month in Cape Town</p>
                 <i class="fa-solid fa-chevron-right fa-sm"></i>
             </div>
@@ -353,9 +368,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="1.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -365,7 +379,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="3.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -374,7 +388,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="4.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -384,7 +398,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="5.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -394,7 +408,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="6.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -403,7 +417,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="7.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -411,10 +425,9 @@
                 <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
-
         </div>
-
     </div>
+
 
     <div class="container-fluid my-5 px-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
@@ -422,7 +435,6 @@
                 <p class="fw-bold m-0">Luxury in Ibadan</p>
                 <i class="fa-solid fa-chevron-right fa-sm"></i>
             </div>
-
 
             <div class="d-flex align-items-center gap-2">
                 <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
@@ -434,9 +446,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="8.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -445,7 +456,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="9.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -455,7 +466,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="10.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -465,7 +476,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="11.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -474,7 +485,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="12.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -483,7 +494,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="13.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -492,9 +503,9 @@
                 <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
-
         </div>
     </div>
+
 
     <div class="container-fluid my-5 px-4">
         <div class="d-flex justify-content-between align-items-center mb-3">
@@ -502,7 +513,6 @@
                 <p class="fw-bold m-0">Stay in Lekki</p>
                 <i class="fa-solid fa-chevron-right fa-sm"></i>
             </div>
-
 
             <div class="d-flex align-items-center gap-2">
                 <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
@@ -514,9 +524,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="14.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -525,7 +534,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="15.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -535,7 +544,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="16.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -545,9 +554,9 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
-                    <img src="17.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
+                    <img src="1.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
                     <i class="fa-regular fa-heart love-icon"></i>
                 </div>
@@ -555,7 +564,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="18.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -564,7 +573,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="19.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -572,9 +581,7 @@
                 <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
-
         </div>
-
     </div>
 
     <div class="container-fluid my-5 px-4">
@@ -582,7 +589,6 @@
             <div class="d-flex align-items-center gap-1">
                 <p class="fw-bold m-0">Available next month in Nairobi</p>
                 <i class="fa-solid fa-chevron-right fa-sm"></i>
-
             </div>
 
             <div class="d-flex align-items-center gap-2">
@@ -595,9 +601,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="20.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -606,7 +611,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="21.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -615,7 +620,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="22.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -624,7 +629,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="23.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -634,7 +639,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="24.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -643,7 +648,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="25.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -651,7 +656,6 @@
                 <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
-
         </div>
     </div>
 
@@ -671,9 +675,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="26.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -683,7 +686,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="27.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -693,7 +696,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="28.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -703,7 +706,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="29.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -712,7 +715,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="30.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -722,7 +725,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="31.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -730,9 +733,7 @@
                 <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
-
         </div>
-
     </div>
 
     <div class="container-fluid my-5 px-4">
@@ -741,7 +742,6 @@
                 <p class="fw-bold m-0">Available in Ikeja this weekend</p>
                 <i class="fa-solid fa-chevron-right fa-sm"></i>
             </div>
-
             <div class="d-flex align-items-center gap-2">
                 <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
                     <i class="fa-solid fa-chevron-left fa-sm"></i>
@@ -752,9 +752,8 @@
             </div>
         </div>
 
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
+        <div class="d-flex overflow-auto gap-4 pb-2">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="32.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -764,7 +763,7 @@
                 <p class="text-muted small mb-0">From £120 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="33.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -773,7 +772,7 @@
                 <p class="text-muted small mb-0">From £95 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="34.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -783,7 +782,7 @@
                 <p class="text-muted small mb-0">From £150 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="35.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -793,7 +792,7 @@
                 <p class="text-muted small mb-0">From £210 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="36.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <i class="fa-regular fa-heart love-icon"></i>
@@ -802,7 +801,7 @@
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
 
-            <div class="text-center">
+            <div class="text-center flex-shrink-0">
                 <div class="img-wrapper position-relative">
                     <img src="37.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
                     <span class="image-badge">Guest favorite</span>
@@ -811,330 +810,10 @@
                 <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
                 <p class="text-muted small mb-0">From £300 / night</p>
             </div>
-
         </div>
     </div>
 
-    <div class="container-fluid my-5 px-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="d-flex align-items-center gap-1">
-                <p class="fw-bold m-0">Places to stay in Abuja</p>
-                <i class="fa-solid fa-chevron-right fa-sm"></i>
-            </div>
 
-            <div class="d-flex align-items-center gap-2">
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-left fa-sm"></i>
-                </div>
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="d.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Modern Flat in Soho</p>
-                <p class="text-muted small mb-0">From £120 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="c.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Cozy Studio near Hyde Park</p>
-                <p class="text-muted small mb-0">From £95 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="e.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Riverside Apartment</p>
-                <p class="text-muted small mb-0">From £150 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="12.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="1.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="13.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="container-fluid my-5 px-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="d-flex align-items-center gap-1">
-                <p class="fw-bold m-0">Check out homes in Paris</p>
-                <i class="fa-solid fa-chevron-right fa-sm"></i>
-            </div>
-
-            <div class="d-flex align-items-center gap-2">
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-left fa-sm"></i>
-                </div>
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="b.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Modern Flat in Soho</p>
-                <p class="text-muted small mb-0">From £120 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="c.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Cozy Studio near Hyde Park</p>
-                <p class="text-muted small mb-0">From £95 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="6.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Riverside Apartment</p>
-                <p class="text-muted small mb-0">From £150 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="e.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="27.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="32.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-fluid my-5 px-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="d-flex align-items-center gap-1">
-                <p class="fw-bold m-0">Popular homes in La Dade-kotopon</p>
-                <i class="fa-solid fa-chevron-right fa-sm"></i>
-            </div>
-
-            <div class="d-flex align-items-center gap-2">
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-left fa-sm"></i>
-                </div>
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="g.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Modern Flat in Soho</p>
-                <p class="text-muted small mb-0">From £120 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="36.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Cozy Studio near Hyde Park</p>
-                <p class="text-muted small mb-0">From £95 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="34.jpg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Riverside Apartment</p>
-                <p class="text-muted small mb-0">From £150 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="33.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="18.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="19.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-        </div>
-
-    </div>
-
-    <div class="container-fluid my-5 px-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div class="d-flex align-items-center gap-1">
-                <p class="fw-bold m-0">Stay in Ayawaso West</p>
-                <i class="fa-solid fa-chevron-right fa-sm"></i>
-            </div>
-            <div class="d-flex align-items-center gap-2">
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-left fa-sm"></i>
-                </div>
-                <div class="arrow-btn d-flex align-items-center justify-content-center border rounded-circle">
-                    <i class="fa-solid fa-chevron-right fa-sm"></i>
-                </div>
-            </div>
-        </div>
-
-        <div class="d-flex justify-content-center flex-wrap gap-4">
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="b.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Modern Flat in Soho</p>
-                <p class="text-muted small mb-0">From £120 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="6.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Cozy Studio near Hyde Park</p>
-                <p class="text-muted small mb-0">From £95 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="3.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Riverside Apartment</p>
-                <p class="text-muted small mb-0">From £150 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="11.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Elegant Notting Hill Home</p>
-                <p class="text-muted small mb-0">From £210 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="16.png" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-            <div class="text-center">
-                <div class="img-wrapper position-relative">
-                    <img src="30.jpeg" alt="Airbnb" width="180" height="180" class="rounded-4" />
-                    <span class="image-badge">Guest favorite</span>
-                    <i class="fa-regular fa-heart love-icon"></i>
-                </div>
-                <p class="fw-semibold mt-2 mb-0">Luxury City Loft</p>
-                <p class="text-muted small mb-0">From £300 / night</p>
-            </div>
-
-        </div>
-    </div>
 
     <footer class="bg-light mt-5 pt-5 border-top">
         <div class="container-fluid px-4">
