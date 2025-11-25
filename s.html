@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>name.com</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            color: #222
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 40px;
+            border-bottom: 1px solid #eee
+        }
+
+        header .logo {
+            font-weight: 700;
+            font-size: 20px
+        }
+
+        header nav a {
+            margin: 0 12px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px
+        }
+
+        .wrap {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 30px;
+            align-items: start
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px
+        }
+
+        h1 {
+            font-size: 44px;
+            margin: 6px 0 18px
+        }
+
+        .small {
+            color: #666
+        }
+
+        .form {
+            max-width: 480px
+        }
+
+        .google-btn {
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding: 10px 14px;
+            border-radius: 6px;
+            background: #fff;
+            cursor: pointer
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 16px 0
+        }
+
+        .divider div {
+            flex: 1;
+            height: 1px;
+            background: #e6e6e6
+        }
+
+        .divider span {
+            padding: 0 10px;
+            color: #999;
+            font-size: 13px
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-size: 14px
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email] {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-top: 6px
+        }
+
+        .help {
+            color: #d9534f;
+            font-size: 13px;
+            margin-top: 8px
+        }
+
+        .create {
+            margin-top: 18px;
+            background: #78c64b;
+            border: none;
+            color: #fff;
+            padding: 12px 18px;
+            border-radius: 24px;
+            cursor: pointer
+        }
+
+        aside .hero {
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            border: 6px solid transparent
+        }
+
+        aside img {
+            display: block;
+            width: 100%;
+            height: auto
+        }
+
+        footer {
+            background: #222;
+            color: #ddd;
+            padding: 36px 20px;
+            margin-top: 40px
+        }
+
+        .footer-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            gap: 30px
+        }
+
+        .col {
+            flex: 1
+        }
+
+        .col h4 {
+            color: #fff;
+            margin-top: 0
+        }
+
+        .col ul {
+            list-style: none;
+            padding: 0;
+            margin: 6px 0
+        }
+
+        .col li {
+            margin: 6px 0;
+            font-size: 14px
+        }
+
+        @media(max-width:900px) {
+            .wrap {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-inner {
+                flex-direction: column
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">name.com</div>
+        <nav>
+            <a href="#">Domains</a>
+            <a href="#">Products</a>
+            <a href="#">API</a>
+            <a href="#">Support</a>
+        </nav>
+    </header>
+
+    <main class="wrap">
+        <section>
+            <h1>Create your account.</h1>
+            <p class="small">Have an account? <a href="#">Login</a></p>
+
+            <div class="form">
+                <button class="google-btn">Sign up with Google</button>
+                <div class="divider">
+                    <div></div><span>OR</span>
+                    <div></div>
+                </div>
+
+                <label>Enter your Email
+                    <input id="email" type="email" placeholder="you@example.com">
+                </label>
+
+                <label>Create a Username
+                    <input id="username" type="text" placeholder="username">
+                </label>
+
+                <label>Create a Password
+                    <input id="password" type="password" placeholder="password">
+                </label>
+
+                <div class="help">
+                    <span id="ruleEmail">⚠ Enter a valid email</span><br>
+                    <span id="ruleUsername">⚠ Username must be at least 3 characters</span><br>
+                    <span id="ruleLength">⚠ Password minimum length 7</span><br>
+                    <span id="ruleNumber">⚠ Password must contain 1 number/symbol</span><br>
+                    <span id="ruleLetter">⚠ Password must contain 1 letter</span>
+                </div>
+
+                <button class="create">Create My Account ➜</button>
+
+                <p style="font-size:13px;color:#666;margin-top:12px">By creating an account, you are agreeing to the <a
+                        href="#">Privacy Policy</a> and <a href="#">Registration Agreement</a>.</p>
+            </div>
+        </section>
+
+        <aside>
+            <div class="hero">
+                <img src="im.png" alt="hero">
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-inner">
+            <div class="col">
+                <h4>Domain Names</h4>
+                <ul>
+                    <li>Domain Name Search</li>
+                    <li>Renew My Domains</li>
+                    <li>Transfer Domains</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Products</h4>
+                <ul>
+                    <li>Web Hosting</li>
+                    <li>Cloud Hosting</li>
+                    <li>WordPress Hosting</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Information</h4>
+                <ul>
+                    <li>Registration Agreement</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Support</h4>
+                <ul>
+                    <li>Knowledge Base</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let emailInput = document.getElementById("email");
+        let usernameInput = document.getElementById("username");
+        let passwordInput = document.getElementById("password");
+
+        let ruleEmail = document.getElementById("ruleEmail");
+        let ruleUsername = document.getElementById("ruleUsername");
+        let ruleLength = document.getElementById("ruleLength");
+        let ruleNumber = document.getElementById("ruleNumber");
+        let ruleLetter = document.getElementById("ruleLetter");
+
+        emailInput.oninput = function () {
+            let value = emailInput.value;
+            if (value == "") {
+                ruleEmail.style.color = "red";
+            } else if (value.indexOf("@") > -1) {
+                ruleEmail.style.color = "green";
+            } else {
+                ruleEmail.style.color = "red";
+            }
+        };
+
+        usernameInput.oninput = function () {
+            let value = usernameInput.value;
+            if (value == "") {
+                ruleUsername.style.color = "red";
+            } else if (value.length >= 3) {
+                ruleUsername.style.color = "green";
+            } else {
+                ruleUsername.style.color = "red";
+            }
+        };
+
+        passwordInput.oninput = function () {
+            let value = passwordInput.value;
+
+            if (value.length >= 7) {
+                ruleLength.style.color = "green";
+            } else {
+                ruleLength.style.color = "red";
+            }
+
+            let hasNumOrSymbol = false;
+            for (let i = 0; i < value.length; i++) {
+                let ch = value[i];
+                if (!((ch >= "a" && ch <= "z") || (ch >= "A" && ch <= "Z"))) {
+                    hasNumOrSymbol = true;
+                }
+            }
+            if (hasNumOrSymbol) {
+                ruleNumber.style.color = "green";
+            } else {
+                ruleNumber.style.color = "red";
+            }
+
+            let hasLetter = false;
+            for (let i = 0; i < value.length; i++) {
+                let ch = value[i];
+                if ((ch >= "a" && ch <= "z") || (ch >= "A" && ch <= "Z")) {
+                    hasLetter = true;
+                }
+            }
+            if (hasLetter) {
+                ruleLetter.style.color = "green";
+            } else {
+                ruleLetter.style.color = "red";
+            }
+        };
+    </script>
+
+
+</body>
+
+</html>
